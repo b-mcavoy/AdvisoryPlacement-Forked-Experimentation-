@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+  <!-- From here down -->
+
+  <script src="csvToArray.js"> </script>
+
+  <form id="myForm">
+    <input type="file" id="csvFile" accept=".csv" />
+    <br />
+    <input type="submit" value="Submit" />
+  </form>
+
+  <script>
+    // const input;
+    // const myForm = document.getElementById("myForm");
+    // const csvFile = document.getElementById("csvFile");
+
+    // myForm.addEventListener("submit", function (e) {
+    //   e.preventDefault();
+    //   const input = csvFile.files[0];
+    //   const reader = new FileReader();
+
+    //   reader.onload = function (e) {
+    //     const text = e.target.result;
+    //     const data = csvToArray(text);
+    //     document.write(JSON.stringify(data));
+    //   };
+
+    //   reader.readAsText(input);
+    // });
+  </script>
+
+  <!--  ^ https://sebhastian.com/javascript-csv-to-array/#:~:text=To%20convert%20or%20parse%20CSV,only%20works%20in%20the%20browser.-->
+
+  <p id="output"> </p>
+  <script src="Advisory.js"></script>
+  <script src="Student.js"></script>
+  <script src="placeStudent.js"></script>
+  <script src="script.js"></script>
+
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
